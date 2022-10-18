@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>✨ Modelo de cajas ✨</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Conceptos</h2>
+                <div class="contenedor">
+                    <div class="propiedades">
+                        <p class="definicion">
+                            Window es el objeto que representa la ventana abierta del navegador, es
+                            decir la página que tiene cargada nuestro navegador.</p>
+                        <p>
+                        <div>
+                            <code>closed</code>
+                            <p>Devuelve true en caso de que la ventana a la que se está haciendo referencia con el objeto (por defecto la actual) esté cerrada.</p>
+                            <code>console</code>
+                            <p>Da acceso a la consola del navegador, puede usarse directamente console o acceder mediante la propiedad de Window.</p>
+                            <code>document</code>
+                            <p>Da acceso al objeto documento del navegador, puede usarse directamente document o acceder mediante la propeidad de Window. El objeto documento es aquel se crea a partir del documento HTML generado ¡Es como si la página HTML fuera un objeto!</p>
+                            <code>frameElement</code>
+                            <p>Devuelve el frame de la ventana en caso de que tenga, en caso contrario da null. Es una propiedad de solo lectura y también se puede acceder mediante frameElement.</p>
+                            <code>frames</code>
+                            <p>Devuelve todos los objetos Window que tenga una Window en forma de array.</p>
+                            <code>history</code>
+                            <p>Da acceso a las paginas visitadas por el usuario desde esa Window. Es una propiedad de solo lectura y también se puede acceder con history.</p>
+                            <code>innerHeight</code>
+                            <p>Devuelve la altura de la ventana. Se puede acceder mediante innerHeight también.</p>
+                            <code>innerWidth</code>
+                            <p>Devuelve la anchura de la ventana. Se puede acceder mediante innerWidth también.</p>
+                            <code>length</code>
+                            <p>Devuelve la cantidad de frames que tiene una ventana.</p>
+                            <code>localStorage</code>
+                            <p>Permite guardar una clave/valor en el navegador sin fecha de expiración. Se puede acceder mediante localStorage también.</p>
+                            <code>location</code>
+                            <p>Devuelve el objeto location el cual contiene información sobre la dirección actual. Se puede acceder también mediante location</p>
+                            <code>name</code>
+                            <p></p>
+                            <code>navigator</code>
+                            <p></p>
+                            <code>opener</code>
+                            <p></p>
+                            <code>outerHeight</code>
+                            <p></p>
+                            <code>outerWidth</code>
+                            <p></p>
+                            <code>pageXOffset</code>
+                            <p></p>
+                            <code>pageYOffset</code>
+                            <p></p>
+                            <code>parent</code>
+                            <p></p>
+                            <code>screen</code>
+                            <p></p>
+                            <code>screenLeft</code>
+                            <p></p>
+                            <code>screenTop</code>
+                            <p></p>
+                            <code>screenX</code>
+                            <p></p>
+                            <code>screenY</code>
+                            <p></p>
+                            <code>sessionStorage</code>
+                            <p></p>
+                            <code>scrollX</code>
+                            <p></p>
+                            <code>scrollY</code>
+                            <p></p>
+                            <code>self</code>
+                            <p></p>
+                            <code>status</code>
+                            <p></p>
+                            <code>top</code>
+                            <p></p>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="funciones">
+                        <p><code>Funcion</code> Parametros y definicion</p>
+                    </div>
+                    <div class="ejemplo">
+                    </div>
+                </div>
+            </article>
+
+            <!--Aquí-->
+            <article>
+                <h2>EL OBJETO DOCUMENTO</h2>
+                <div class="contenedor">
+                    <div class="propiedades">
+                        <p class="definicion">El objeto documento es una propiedad del objeto de ventana. Cuando el
+                            documento HTML se carga en un navegador se convierte en un objeto del documento siendo el
+                            nodo raiz del documento HTML.</p>
+                        <p><code>activeElement</code>propiedad que devuelve el elemento al que se le esta haciendo
+                            focus.</p>
+                        <p><code>baseURI</code>Propiedad que devuelve l'URI base de un documento. URI es el
+                            identificador uniforme de recursos, un texto corto que identifica sin error cualquier recurso accesible de la red.</p>
+                        <p><code>body</code>Propiedad que establece o devuelve el body de un documento</p>
+                        <p><code>characterSet</code>Propiedad que devuelve la codificación de los carácteres para un documento.</p>
+                        <p><code>cookie</code>Propiedad que establece o devuelve una lista separada por ";" con pares (clave =&gt; valor) de las "galletas" o cookies del documento.</p>
+                        <p><code>defaultView</code>Propiedad que devuelve el objeto ventana del documento.</p>
+                        <p><code>designMode</code>Propiedad que establece o devuelve si el documento es editable.</p>
+                        <p><code>doctype</code>Propiedad que devuelve el tipo de documento de un documento. </p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                    </div>
+                    <div class="funciones">
+                        <p><code>addEventListener()</code>Método que adjunta un controlador de eventos a un documento.
+                            Los controladores de eventos llevan el mismo nombre que el evento al que se asocian
+                            precedidos del prefijo on. </p>
+                        <p><code>adoptNode()</code>metodo que adopta un nodo de otro documento. Un nodo es cualquier
+                            etiqueta del body, como por ejemplo un &lt;p&gt; o incluso el &lt;body&gt;. Con JavaScript
+                            podemos modificar estas etiquetas.</p>
+                        <p><code>close()</code>Metodo que cierra una ventana previamente abierta con el metodo <a href="#open">open()</a></p>
+                        <p><code>createAttribute()</code>Metodo que crea un atributo y devuelve el atributo como objeto de Atrr.</p>
+                        <p><code>createComment()</code>Metodo que crea un comentario y devuelve el nodo de comentario</p>
+                        <p><code>createDocumentFragment()</code>Metodo que crea un nodo fuera de la pantalla, para crear un fragmento de un nuevo documento y poder insertarlo en cualquier otro documento. También se puede utilizar para cambiar partes o añadir y volveras a añadir en el nuevo documento.</p>
+                        <p><code>createElement()</code>Metodo que crea un elemento nodo.</p>
+                        <p><code>createEvent()</code>Metodo que crea un evento de objeto.</p>
+                        <p><code>createTextNode()</code>Metodo que crea un texto de nodo</p>
+                        
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        <p><code></code></p>
+                        
+                    </div>
+                    <div class="ejemplo">
+
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>IES SERPIS Ángel Torada y Carlos Monzó</address>
+    </footer>
+</body>
+
+</html>

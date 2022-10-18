@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Fuente";
+    src: url("fonts/Rosario-Regular.ttf");
+}
+
+body {
+    font-family: "Fuente";
+    
+    background-color: #f7d3eb;
+}
+
+header h1,
+header h2 {
+    display: flex;
+
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+
+section {
+    margin: 1%;
+
+    text-align: center;
+    
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: #FDEBF7;
+}
+
+article {
+    margin: 1%;
+
+    text-align: center;
+}
+
+article h2 {
+    display: inline-block;
+    padding: 1%;
+
+    font-weight: bolder;
+
+    color: rgb(212, 41, 127);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+code:not(.propiedades > code) {
+    padding: 1%;
+    margin: 1%;
+
+    font-weight: bold;
+
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+.especial {
+    font-weight: bold;
+
+    color: #ff42c0;
+}
+
+.bordeCaja {
+    padding: 1px;
+
+    color: black;
+    border: 1px black dotted;
+}
+
+.bordeCajaParrafo {
+    padding: 1px;
+
+    color: red;
+    border: 1px black dotted;
+}
+
+.exterior {
+    padding: 1px;
+
+    border: 1px black dotted;
+    color: gray;
+}
+
+.interior {
+    color: beige;
+    border: 1px black dotted;
+}
+
+.contenedor {
+    display: flexbox;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.funciones,
+.ejemplo,
+.propiedades {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+
+    text-align: left;
+
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+.funciones {
+    text-align: justify;
+
+    background-color: #fff6e6;
+}
+
+.subatributos {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: justify;
+
+    border: 1px black solid;
+    background-color: #fff0d6;
+}
+
+.definicion {
+    margin-bottom: 5%;
+
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.ejemplo {
+    background-color: #e6ffff;
+}
+
+.indice {
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+
+    text-align: center;
+
+    border: 1px solid black;
+    background-color: white;
+}
+
