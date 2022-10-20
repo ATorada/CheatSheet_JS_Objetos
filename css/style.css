@@ -125,6 +125,10 @@ footer {
     background-color: #e6ffff;
 }
 
+.solo_lectura {
+    color: red;
+}
+
 .indice {
     width: 50%;
     margin-top: 1%;
