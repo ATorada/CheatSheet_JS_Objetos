@@ -72,7 +72,7 @@
 
                         <div class="propiedad">
                             <code>maxTouchPoints <span class="solo_lectura">(Solo lectura)</span></code>
-                            <p>Devuelve la cantidad puntos de contacto simultaneos que soporta el dispositivo.</p>
+                            <p>Devuelve la cantidad puntos de contacto simultáneos que soporta el dispositivo.</p>
                         </div>
 
                         <div class="propiedad">
@@ -88,20 +88,27 @@
                     </div>
                     <div class="funciones">
                         <p><code>javaEnabled()</code>Devuelve true si el navegador tiene activado Java.</p>
-                        <p><code>vibrate(milisegundos)</code>Permite pasar un patrón de milisegundos en los que vibrará.</p>
+                        <p><code>vibrate(milisegundos)</code>Permite pasar un patrón de milisegundos en los que vibrará.
+                        </p>
                         <p><code>sendBeacon(url, data)</code>Permite pasar información con el método POST a una URL.</p>
                         <p><code>getBattery()</code>Obtiene la cantidad de batería del dispositivo.</p>
-                        <p><code>registerProtocolHandler(scheme, url, titulo)</code>Permite ciertas URLS con ciertos protocolos.</p>
+                        <p><code>registerProtocolHandler(scheme, url, titulo)</code>Permite ciertas URLS con ciertos
+                            protocolos.</p>
                         <p><code>getGamepads()</code>Obtiene la cantidad de gamepads conectados al dispositivo.</p>
                     </div>
                     <div class="ejemplo">
                         <h2><a href="ejercicios/ejercicio1/index.html">Ejercicio</a></h2>
                         <p class="enunciado">
-                            Crea una página que tenga un botón que compruebe si el usuario está usando Firefox o Chrome.<br>
-                            Si está usando Firefox mostrará la imagen de un zorro y si está usando Chrome mostrará la imagen del dinosaurio de Chrome. <br>
-                            En caso de que no sea ninguno de los dos le mostrará el texto de "Este navegador no lo usa nadie" y posteriormente comprobará si el usuario tiene internet. <br>
-                            En caso de que tenga internet se le mostrarán los enlaces a las páginas de descarga de Google Chrome y Mozilla Firefox, 
-                            sino se le pondrá un texto con el texto de "Se necesita internet para descargar un navegador decente".
+                            Crea una página que tenga un botón que compruebe si el usuario está usando Firefox o
+                            Chrome.<br>
+                            Si está usando Firefox mostrará la imagen de un zorro y si está usando Chrome mostrará la
+                            imagen del dinosaurio de Chrome. <br>
+                            En caso de que no sea ninguno de los dos le mostrará el texto de "Este navegador no lo usa
+                            nadie" y posteriormente comprobará si el usuario tiene internet. <br>
+                            En caso de que tenga internet se le mostrarán los enlaces a las páginas de descarga de
+                            Google Chrome y Mozilla Firefox,
+                            sino se le pondrá el siguiente texto: "Se necesita internet para descargar un navegador
+                            decente".
                         </p>
                     </div>
                 </div>
@@ -110,33 +117,35 @@
                 <h2>Object Screen</h2>
                 <div class="contenedor">
                     <div class="propiedades">
-                        <p class="definicion">El objeto <i>Screen</i> cotiene información sobre la pantalla del visitante.</p>
-        
+                        <p class="definicion">El objeto <i>Screen</i> coctiene información sobre la pantalla del
+                            visitante.</p>
+
                         <div class="propiedad">
                             <code>availHeight</code>
                             <p>Devuelve la altura de la pantalla del usuario en pixels. (Desde la barra de tareas)</p>
                         </div>
-        
+
                         <div class="propiedad">
                             <code>availWidth</code>
                             <p>Devuelve la anchura de la pantalla del usuario en pixels. (Desde la barra de tareas)</p>
                         </div>
-        
+
                         <div class="propiedad">
                             <code>colorDepth</code>
                             <p>Devuelve la profundidad de color de la pantalla. La medida es en bits por pixel.</p>
                         </div>
-        
+
                         <div class="propiedad">
                             <code>height</code>
                             <p>Devuelve la altura total de la pantalla del usuario en pixels.</p>
                         </div>
-        
+
                         <div class="propiedad">
                             <code>pixelDepth</code>
-                            <p>Devuelve la profundida de color de la pantalla en bits por pixel. Es igual que colorDepth, pero en Internet explorer 9 y versiones anteriores no funciona.</p>
+                            <p>Devuelve la profundidad de color de la pantalla en bits por pixel. Es igual que
+                                colorDepth, pero en Internet explorer 9 y versiones anteriores no funciona.</p>
                         </div>
-        
+
                         <div class="propiedad">
                             <code>width</code>
                             <p>Devuelve la anchura de la pantalla en pixels.</p>
@@ -145,8 +154,10 @@
                     <div class="ejemplo">
                         <h2><a href="ejercicios/ejercicio2/index.html">Ejercicio</a></h2>
                         <p class="enunciado">
-                            Crea un div que tenga la mitad de ancho y largo de la pantalla del cliente (Sin la barra de tareas) y luego dentro del mismo crea
-                            otro div con un cuarto del tamaño de la pantalla del cliente (Sin la barra de tareas) y con el texto "Hola mundo";
+                            Crea un div que tenga la mitad de ancho y largo de la pantalla del cliente (Sin la barra de
+                            tareas) y luego dentro del mismo crea
+                            otro div con un cuarto del tamaño de la pantalla del cliente (Sin la barra de tareas) y con
+                            el texto "Hola mundo";
                         </p>
                     </div>
                 </div>
@@ -343,8 +354,10 @@
                     <div class="ejemplo">
                         <h2><a href="ejercicios/ejercicio3/index.html">Ejercicio</a></h2>
                         <p class="enunciado">
-                            Crea una página que pona "Yo soy tu padre" y que tenga un botón que abra una ventana en la que ponga "Yo soy tu hijo". <br>
-                            Esta ventana tendrá un interval cada segundo que mostrará una variable que se aumentará en cada ejecución. <br>
+                            Crea una página que ponga "Yo soy tu padre" y que tenga un botón que abra una ventana en la
+                            que ponga "Yo soy tu hijo". <br>
+                            Esta ventana tendrá un interval cada segundo que mostrará una variable que se aumentará en
+                            cada ejecución. <br>
                             También tendrá dos botones, uno para cerrarla y otro para dejar de contar.
                         </p>
                     </div>
@@ -368,6 +381,11 @@
                         <p><code>go()</code>Carga una página concreta del historial.</p>
                     </div>
                     <div class="ejemplo">
+                        <h2><a href="ejercicios/ejercicio4/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea dos botones que te permitan ir hacia delante y hacia atrás en tu historial de
+                            navegación de la ventana.
+                        </p>
                     </div>
                 </div>
             </article>
@@ -398,7 +416,7 @@
 
                         <div class="propiedad">
                             <code>characterSet</code>
-                            <p>Propiedad que devuelve la codificación de los carácteres para un
+                            <p>Propiedad que devuelve la codificación de los caracteres para un
                                 documento.</p>
                         </div>
 
@@ -480,7 +498,7 @@
 
                         <div class="propiedad">
                             <code>links</code>
-                            <p>Propiedad que devuelve una coleeción de todos los enlaces del documento. Elementos
+                            <p>Propiedad que devuelve una colección de todos los enlaces del documento. Elementos
                                 &lt;a&gt;
                                 y &lt;area&gt; con el atributo <i>href</i></p>
                         </div>
@@ -494,7 +512,7 @@
                         </div>
                         <div class="propiedad">
                             <code>scripsts</code>
-                            <p>Propiedad que devuelve una colección de todos los elementos &lt;scrip&gt; del documento.
+                            <p>Propiedad que devuelve una colección de todos los elementos &lt;script&gt; del documento.
                             </p>
                         </div>
                         <div class="propiedad">
@@ -512,11 +530,11 @@
                         <p><code>adoptNode()</code>Método que adopta un nodo de otro documento.</p>
                         <p id="close"><code>close()</code>Método que cierra una ventana previamente abierta con el
                             método <a href="#open">open()</a></p>
-                        <p><code>createAttribute()</code>Método que crea un atributo y devuelve el atributo como objeto
-                            de Atrr.</p>
+                        <p><code>createAttribute()</code>Método que crea un atributo y devuelve el atributo como un objeto.</p>
                         <p><code>createComment()</code>Método que crea un comentario y devuelve el nodo de comentario
                         </p>
-                        <p><code>createDocumentFragment()</code>Método que crea un nodo, para crear, añadir o cambiar nodos de otro documento.</p>
+                        <p><code>createDocumentFragment()</code>Método que crea un nodo, para crear, añadir o cambiar
+                            nodos de otro documento.</p>
                         <p><code>createElement()</code>Método que crea un elemento nodo.</p>
                         <p><code>createEvent()</code>Método que crea un evento de objeto.</p>
                         <p><code>createTextNode()</code>Método que crea un texto de nodo</p>
@@ -526,26 +544,31 @@
                         <p><code>getElementsByName()</code>Método que devuelve una colección de elementos con un nombre
                             especificado.</p>
                         <p><code>getElementsByTagName()</code>Método que devuelve una colección de todos los elementos
-                            con un nombre de etiqueta espeficado.</p>
+                            con un nombre de etiqueta especificado.</p>
                         <p><code>hasFocus()</code>Método que devuelve true si el documento o cualquier elemento tiene
                             focus. De lo contrario devuelve false.</p>
                         <p><code>importNode()</code>Método que importa otro nodo de otro documento.</p>
-                        <p><code>normalize()</code>Método que elimina los nodos de texto vacio une los nodos de texto
-                            adjacentes.</p>
+                        <p><code>normalize()</code>Método que elimina los nodos de texto vacío une los nodos de texto
+                            adyacentes.</p>
                         <p id="open"><code>open()</code>Método que abre un documento para escribir. Se cierra con el
                             método <a href="#close">close()</a>.</p>
-                        <p><code>querySelector()</code>Método que devuelve el pimer elemento que coincide con un
+                        <p><code>querySelector()</code>Método que devuelve el primer elemento que coincide con un
                             selector CSS.</p>
                         <p><code>querySelectorAll()</code>Método que devuelve todas las coincidencias con un selector
                             CSS en un NodeList.</p>
                         <p><code>removeEventListener()</code>Método que elimina un controlador de eventos de un
                             documento.</p>
-                        <p><code>write()</code>Método que escrive directamente en un flujo de documentos abiertos. </p>
-                        <p><code>writeln()</code> Es identico al método write(), pero añade un salto de línea cada nueva línea.</p>
+                        <p><code>write()</code>Método que escribe directamente en un flujo de documentos abiertos. </p>
+                        <p><code>writeln()</code> Es idéntico al método write(), pero añade un salto de línea cada nueva
+                            línea.</p>
 
                     </div>
                     <div class="ejemplo">
-
+                        <h2><a href="ejercicios/ejercicio5/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea una página que tenga enlaces "ocultos" (Ya sea sin texto o con visibility:hidden) y
+                            crea un botón que los revele (Creándolos de nuevo y/o cambiando sus propiedades);
+                        </p>
                     </div>
                 </div>
             </article>
@@ -553,9 +576,9 @@
                 <h2>Object Location</h2>
                 <div class="contenedor">
                     <div class="propiedades">
-                        <p class="definicion">El objeto <i>location</i> cotiene información sobre la URL actual, siendo
+                        <p class="definicion">El objeto <i>location</i> contiene información sobre la URL actual, siendo
                             una
-                            propiedad del objeto Window. Se puede acceder a traves de <em>window.location</em> o
+                            propiedad del objeto Window. Se puede acceder através de <em>window.location</em> o
                             directamente
                             con <em>location</em></p>
 
@@ -581,7 +604,7 @@
 
                         <div class="propiedad">
                             <code>origin</code>
-                            <p>Devuelve el protocolo, el nombre del anfitrion y el número de puerto de una URL.</p>
+                            <p>Devuelve el protocolo, el nombre del anfitrión y el número de puerto de una URL.</p>
                         </div>
 
                         <div class="propiedad">
@@ -611,16 +634,20 @@
                     </div>
                     <div class="funciones">
                         <p><code>assign()</code>Carga un documento nuevo. </p>
-                        <p><code>reload()</code>Vuelve a cargar el documento actual. Acción similar al boton de recarga
+                        <p><code>reload()</code>Vuelve a cargar el documento actual. Acción similar al botón de recarga
                             del
-                            navegaor (actualizar).</p>
+                            navegador (actualizar).</p>
                         <p><code>replace()</code>Substituye el documento actual por uno nuevo.</p>
-
-
-
                     </div>
                     <div class="ejemplo">
-
+                        <h2><a href="ejercicios/ejercicio6/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea una página que tenga dos botones y un párrafo, un botón recargará la página pasados 5
+                            segundos y otro mostrará el enlace de la misma. <br>
+                            Sin embargo el párrafo no tendrá texto pero sí tendrá un id, este párrafo tendrá el texto de
+                            "La página se recargará en 5 segundos ¡Gracias por darle al botón reload!" cuando se le de
+                            al botón de recargar la página y antes de que pasen los 5 para recargarla.
+                        </p>
                     </div>
                 </div>
             </article>

@@ -1,5 +1,6 @@
-var numeroPaginas = history.length;
-var count = numeroPaginas;
+function anyadirPagina() {
+  window.open("atras.html", "_self");
+}
 
 function volverAtras() {
   history.back();
@@ -7,12 +8,4 @@ function volverAtras() {
 
 function irAdelante() {
   history.forward();
-}
-
-function volverPrincipio() {
-  history.go(numeroPaginas * -1);
-}
-
-function irFinal() {
-  history.go(numeroPaginas);
 }
