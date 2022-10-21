@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijo</title>
+    <script>
+        let contador = 0;
+        let interval = null;
+        let p = document.createElement('p');
+
+        function cerrarVentana() {
+            window.close();
+        }
+
+        function empezarAContar(){
+            interval = setInterval(function (){
+                p.innerText = contador++;
+                document.body.appendChild(p);
+            },1000);
+        }
+
+        function pararDeContar(){
+            clearInterval(interval);
+        }
+
+        empezarAContar();
+    </script>
+</head>
+<body>
+    <p>Yo soy tu hijo</p>
+    <button onclick="cerrarVentana()">Cierra esta ventana</button>
+    <button onclick="pararDeContar()">Deja de contar</button>
+    <h1>¡Mira papá sé contar!</h1>
+</body>
+</html>

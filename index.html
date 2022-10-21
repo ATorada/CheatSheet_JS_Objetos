@@ -95,6 +95,14 @@
                         <p><code>getGamepads()</code>Obtiene la cantidad de gamepads conectados al dispositivo.</p>
                     </div>
                     <div class="ejemplo">
+                        <h2><a href="ejercicios/ejercicio1/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea una página que tenga un botón que compruebe si el usuario está usando Firefox o Chrome.<br>
+                            Si está usando Firefox mostrará la imagen de un zorro y si está usando Chrome mostrará la imagen del dinosaurio de Chrome. <br>
+                            En caso de que no sea ninguno de los dos le mostrará el texto de "Este navegador no lo usa nadie" y posteriormente comprobará si el usuario tiene internet. <br>
+                            En caso de que tenga internet se le mostrarán los enlaces a las páginas de descarga de Google Chrome y Mozilla Firefox, 
+                            sino se le pondrá un texto con el texto de "Se necesita internet para descargar un navegador decente".
+                        </p>
                     </div>
                 </div>
             </article>
@@ -106,12 +114,12 @@
         
                         <div class="propiedad">
                             <code>availHeight</code>
-                            <p>Devuelve la altura de la pantalla del usuario en pixels.</p>
+                            <p>Devuelve la altura de la pantalla del usuario en pixels. (Desde la barra de tareas)</p>
                         </div>
         
                         <div class="propiedad">
                             <code>availWidth</code>
-                            <p>Devuelve la anchura de la pantalla del usuario en pixels.</p>
+                            <p>Devuelve la anchura de la pantalla del usuario en pixels. (Desde la barra de tareas)</p>
                         </div>
         
                         <div class="propiedad">
@@ -133,6 +141,13 @@
                             <code>width</code>
                             <p>Devuelve la anchura de la pantalla en pixels.</p>
                         </div>
+                    </div>
+                    <div class="ejemplo">
+                        <h2><a href="ejercicios/ejercicio2/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea un div que tenga la mitad de ancho y largo de la pantalla del cliente (Sin la barra de tareas) y luego dentro del mismo crea
+                            otro div con un cuarto del tamaño de la pantalla del cliente (Sin la barra de tareas) y con el texto "Hola mundo";
+                        </p>
                     </div>
                 </div>
             </article>
@@ -326,6 +341,12 @@
                         <p><code>stop()</code> Deja de cargar la página.</p>
                     </div>
                     <div class="ejemplo">
+                        <h2><a href="ejercicios/ejercicio3/index.html">Ejercicio</a></h2>
+                        <p class="enunciado">
+                            Crea una página que pona "Yo soy tu padre" y que tenga un botón que abra una ventana en la que ponga "Yo soy tu hijo". <br>
+                            Esta ventana tendrá un interval cada segundo que mostrará una variable que se aumentará en cada ejecución. <br>
+                            También tendrá dos botones, uno para cerrarla y otro para dejar de contar.
+                        </p>
                     </div>
                 </div>
             </article>
@@ -503,7 +524,7 @@
                         <p><code>getElementsByClassName()</code>Método que devuelve una colección de elementos con un
                             nombre de clase especifico. </p>
                         <p><code>getElementsByName()</code>Método que devuelve una colección de elementos con un nombre
-                            especificado. Devuelve una NodeList (lista de nodos) en vivo.</p>
+                            especificado.</p>
                         <p><code>getElementsByTagName()</code>Método que devuelve una colección de todos los elementos
                             con un nombre de etiqueta espeficado.</p>
                         <p><code>hasFocus()</code>Método que devuelve true si el documento o cualquier elemento tiene
@@ -516,12 +537,11 @@
                         <p><code>querySelector()</code>Método que devuelve el pimer elemento que coincide con un
                             selector CSS.</p>
                         <p><code>querySelectorAll()</code>Método que devuelve todas las coincidencias con un selector
-                            CSS en un NodeList. Si los selectores no son validos devuelve <i>SYNTAX_ERR.</i></p>
+                            CSS en un NodeList.</p>
                         <p><code>removeEventListener()</code>Método que elimina un controlador de eventos de un
                             documento.</p>
                         <p><code>write()</code>Método que escrive directamente en un flujo de documentos abiertos. </p>
-                        <p><code>writeln()</code> Es identico al método write(), con la diferencia de que escrivir como
-                            caracter de nueva linea (U+000A) despues de cada instrucción.</p>
+                        <p><code>writeln()</code> Es identico al método write(), pero añade un salto de línea cada nueva línea.</p>
 
                     </div>
                     <div class="ejemplo">

@@ -122,6 +122,7 @@ footer {
 
 
 .ejemplo {
+    text-align: center;
     background-color: #e6ffff;
 }
 
@@ -143,3 +144,9 @@ footer {
     background-color: white;
 }
 
+
+.enunciado {
+    background-color: white;
+    padding: 1%;
+    border: 1px solid black;
+}

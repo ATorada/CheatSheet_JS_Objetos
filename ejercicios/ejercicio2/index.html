@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+        let divGrande = document.createElement('div');
+
+        divGrande.style.width = screen.width/2+"px";
+        divGrande.style.height = screen.height/2+"px";
+        divGrande.style.marginLeft = "auto";
+        divGrande.style.marginRight = "auto";
+        
+        divGrande.style.background = "gray";
+
+        let divPeque = document.createElement('div');
+
+        divPeque.style.width = screen.width/4+"px";
+        divPeque.style.height = screen.height/4+"px";
+        divPeque.style.marginLeft = "auto";
+        divPeque.style.marginRight = "auto";
+
+        divPeque.style.background = "azure";
+
+        let p = document.createElement('p');
+        p.innerText = "Hola Mundo";
+        p.style.textAlign = "center";
+        divPeque.appendChild(p);
+
+
+        divGrande.appendChild(divPeque);
+        document.body.appendChild(divGrande);
+
+    </script>
+</body>
+
+</html>
